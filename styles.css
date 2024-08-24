@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-wrapper {
+    width: 100%;
+    max-width: 450px;
+    padding: 20px;
+}
+
+.login-container {
+    background-color: rgba(0, 0, 0, 0.75);
+    padding: 60px 68px 40px;
+    border-radius: 4px;
+}
+
+.logo {
+    width: 200px; /* Increase the width */
+    height: auto; /* Maintain aspect ratio */
+    display: block;
+    margin: 0 auto 40px;
+}
+
+
+.login-form h1 {
+    margin: 0 0 24px;
+    font-size: 32px;
+}
+
+.input-group {
+    margin-bottom: 16px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px 16px;
+    font-size: 16px;
+    background: #333;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+}
+
+.login-button {
+    width: 100%;
+    padding: 16px;
+    font-size: 16px;
+    background: #e50914;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.options {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 16px;
+}
+
+.remember-me {
+    display: flex;
+    align-items: center;
+}
+
+.remember-me input {
+    margin-right: 8px;
+}
+
+.help-link {
+    color: #b3b3b3;
+    text-decoration: none;
+}
+
+.signup-now {
+    margin-top: 24px;
+}
+
+.signup-now a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.captcha-notice {
+    margin-top: 16px;
+    font-size: 12px;
+    color: #8c8c8c;
+}
+
+.captcha-notice a {
+    color: #0071eb;
+    text-decoration: none;
+}
